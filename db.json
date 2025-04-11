@@ -1,100 +1,64 @@
 {
-  "quizzes": [
+  "questions": [
     {
-      "id": "quiz1",
-      "title": "Computer Science Basics",
-      "questions": [
-        {
-          "id": 1,
-          "questionText": "What does CPU stand for?",
-          "type": "multiple",
-          "options": ["Central Process Unit", "Central Processing Unit", "Computer Power Unit", "Control Panel Unit"],
-          "correctAnswer": "Central Processing Unit",
-          "explanation": "CPU stands for Central Processing Unit, which is the brain of the computer where most calculations take place."
-        },
-        {
-          "id": 2,
-          "questionText": "In one word, what type of memory is lost when the computer is turned off?",
-          "type": "narrative",
-          "correctAnswer": "RAM",
-          "explanation": "RAM (Random Access Memory) is volatile and is erased when the computer shuts down."
-        },
-        {
-          "id": 3,
-          "questionText": "Click on the image that represents a computer mouse.",
-          "type": "image",
-          "imageOptions": [
-            { "src": "https://via.placeholder.com/150?text=Monitor", "value": "monitor" },
-            { "src": "https://via.placeholder.com/150?text=Mouse", "value": "mouse" },
-            { "src": "https://via.placeholder.com/150?text=Keyboard", "value": "keyboard" }
-          ],
-          "correctAnswer": "mouse",
-          "explanation": "A computer mouse is an input device typically used to point and click on items on the screen."
-        },
-        {
-          "id": 4,
-          "questionText": "Which of these is a type of non-volatile storage?",
-          "type": "multiple",
-          "options": ["RAM", "Cache", "Hard Drive", "Registers"],
-          "correctAnswer": "Hard Drive",
-          "explanation": "Non-volatile storage retains data after power is off. Hard drives are a common example."
-        },
-        {
-          "id": 5,
-          "questionText": "Name the language used to structure web pages (answer in uppercase, e.g., HTML).",
-          "type": "narrative",
-          "correctAnswer": "HTML",
-          "explanation": "HTML (HyperText Markup Language) is used to structure the content of web pages."
-        }
-      ]
+      "id": 1,
+      "quizId": "quiz1",
+      "questionText": "What does CPU stand for?",
+      "type": "multiple",
+      "options": ["Central Process Unit", "Central Processing Unit", "Computer Power Unit", "Control Panel Unit"],
+      "correctAnswer": "Central Processing Unit",
+      "explanation": "CPU stands for Central Processing Unit, which is the brain of the computer where most calculations take place."
     },
     {
-      "id": "quiz2",
-      "title": "Programming Languages",
-      "questions": [
-        {
-          "id": 1,
-          "questionText": "Which language is primarily used for Android app development?",
-          "type": "multiple",
-          "options": ["Python", "Java", "Swift", "C++"],
-          "correctAnswer": "Java",
-          "explanation": "Java is widely used for building Android applications using Android Studio."
-        },
-        {
-          "id": 2,
-          "questionText": "What keyword is used in Python to define a function?",
-          "type": "narrative",
-          "correctAnswer": "def",
-          "explanation": "In Python, you define a function using the `def` keyword followed by the function name."
-        },
-        {
-          "id": 3,
-          "questionText": "Click on the logo that represents the JavaScript language.",
-          "type": "image",
-          "imageOptions": [
-            { "src": "https://via.placeholder.com/150?text=Python", "value": "python" },
-            { "src": "https://via.placeholder.com/150?text=JavaScript", "value": "javascript" },
-            { "src": "https://via.placeholder.com/150?text=Rust", "value": "rust" }
-          ],
-          "correctAnswer": "javascript",
-          "explanation": "JavaScript is commonly represented by the yellow JS logo."
-        },
-        {
-          "id": 4,
-          "questionText": "Which of these is a dynamically typed language?",
-          "type": "multiple",
-          "options": ["C", "Java", "Python", "C++"],
-          "correctAnswer": "Python",
-          "explanation": "Python is dynamically typed, meaning variable types are determined at runtime."
-        },
-        {
-          "id": 5,
-          "questionText": "Which language runs in a browser and is often used to make websites interactive?",
-          "type": "narrative",
-          "correctAnswer": "JavaScript",
-          "explanation": "JavaScript runs in the browser and is used to add interactivity to websites."
-        }
-      ]
+      "id": 2,
+      "quizId": "quiz1",
+      "questionText": "In one word, what type of memory is lost when the computer is turned off?",
+      "type": "narrative",
+      "correctAnswer": "RAM",
+      "explanation": "RAM (Random Access Memory) is volatile and is erased when the computer shuts down."
+    },
+    {
+      "id": 3,
+      "quizId": "quiz1",
+      "questionText": "Click on the image that represents a computer mouse.",
+      "type": "image",
+      "imageOptions": [
+        { "src": "https://via.placeholder.com/150?text=Monitor", "value": "monitor" },
+        { "src": "https://via.placeholder.com/150?text=Mouse", "value": "mouse" },
+        { "src": "https://via.placeholder.com/150?text=Keyboard", "value": "keyboard" }
+      ],
+      "correctAnswer": "mouse",
+      "explanation": "A computer mouse is an input device typically used to point and click on items on the screen."
+    },
+    {
+      "id": 1,
+      "quizId": "quiz2",
+      "questionText": "Which language is primarily used for Android app development?",
+      "type": "multiple",
+      "options": ["Python", "Java", "Swift", "C++"],
+      "correctAnswer": "Java",
+      "explanation": "Java is widely used for building Android applications using Android Studio."
+    },
+    {
+      "id": 2,
+      "quizId": "quiz2",
+      "questionText": "What keyword is used in Python to define a function?",
+      "type": "narrative",
+      "correctAnswer": "def",
+      "explanation": "In Python, you define a function using the `def` keyword followed by the function name."
+    },
+    {
+      "id": 3,
+      "quizId": "quiz2",
+      "questionText": "Click on the logo that represents the JavaScript language.",
+      "type": "image",
+      "imageOptions": [
+        { "src": "https://via.placeholder.com/150?text=Python", "value": "python" },
+        { "src": "https://via.placeholder.com/150?text=JavaScript", "value": "javascript" },
+        { "src": "https://via.placeholder.com/150?text=Rust", "value": "rust" }
+      ],
+      "correctAnswer": "javascript",
+      "explanation": "JavaScript is commonly represented by the yellow JS logo."
     }
   ]
 }
